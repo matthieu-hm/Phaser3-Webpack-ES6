@@ -1,0 +1,31 @@
+{
+  "name": "Phaser3WebpackES6",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Matt H <moi.c.matt@hotmail.fr>",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --mode=development --watch",
+    "build": "webpack --mode=development",
+    "build:production": "webpack  --mode=production"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "browser-sync": "^2.24.4",
+    "browser-sync-webpack-plugin": "^2.2.2",
+    "clean-webpack-plugin": "^0.1.19",
+    "copy-webpack-plugin": "^4.5.1",
+    "expose-loader": "^0.7.3",
+    "html-webpack-plugin": "^3.2.0",
+    "raw-loader": "^0.5.1",
+    "webpack": "^4.10.0",
+    "webpack-cli": "^3.0.1"
+  },
+  "dependencies": {
+    "phaser": "^3.0.0"
+  }
+}

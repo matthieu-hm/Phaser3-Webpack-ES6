@@ -1,6 +1,8 @@
 # Generic Phaser3 project starter
 #### Phaser 3 + Webpack + ES6
 
+[Version TypeScript](https://github.com/sound-matt/Phaser3-Webpack-TS)
+
 # Setup
 You’ll need to install a few things before you have a working copy of the project.
 
